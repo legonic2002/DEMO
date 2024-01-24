@@ -20,6 +20,7 @@ namespace DEMO.Web.Controllers
 
         public IActionResult Privacy()
         {
+            ViewBag["bcs"] = 13;
             return View();
         }
 
