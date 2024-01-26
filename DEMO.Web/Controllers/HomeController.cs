@@ -16,10 +16,7 @@ namespace DEMO.Web.Controllers
         public IActionResult Index()
         {
             ViewBag["abc"] = 12;
-<<<<<<< HEAD
             int x = 18;
-=======
->>>>>>> eba44c9 (Update home)
             return View();
         }
 
